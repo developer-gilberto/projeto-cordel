@@ -1,1 +1,112 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-passion: 'Passion One', cursiva, arial;
+    --font-cursiva: 'Dancing Script', cursive, times;
+    --font-normal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    box-shadow: inset 0px 10px 20px -10px white;
+    text-align: center; 
+    padding:50px 50px;
+    font-variant: small-caps;
+}
+
+header h1{
+    text-shadow: 4px 4px 0px rgb(105, 105, 105);
+    font-family: var(--font-passion);
+    font-size: 10vw;
+    color: rgb(255, 255, 255);
+}
+
+header p{
+    color: rgb(162, 162, 162);
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+    font-weight: normal;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+section{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    box-shadow: inset 0px 0px 50px 0px black;
+}
+
+section p{
+    display: inline-block;
+    font-family: var(--font-cursiva);
+    font-weight: bolder;
+    font-size: 5vw;
+    line-height: 1.5em;
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.200);
+}
+
+.livro{
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+
+.joaninha{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.gil{
+    background-color: gray;
+    background-image: url(../imagens/IMG-20221219-WA0034.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+footer{
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.3em;
+}
+
+footer a{
+    color: gray;
+}
+
+
